@@ -103,11 +103,11 @@ cityInput.addEventListener("keyup", (e) => {
     }
 });
 
-// Sugestões
-suggestionButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-        const city = btn.getAttribute("id");
+// // Sugestões
+// suggestionButtons.forEach((btn) => {
+//     btn.addEventListener("click", () => {
+//         const city = btn.getAttribute("id");
 
-        showWeatherData(city);
-    }
-    );
+//         showWeatherData(city);
+//     }
+//     );
